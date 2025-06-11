@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-page {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    background-image: url("sidebarbg.png");
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    min-width: 200px;
+    height: 100%;
+}
+
+.mainbar {
+    width: 55%;
+    height: 100%;
+    background-color: beige;
+}
