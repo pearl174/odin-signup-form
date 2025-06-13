@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
 .main-page {
     display: flex;
     height: 100vh;
@@ -19,10 +23,41 @@
     width: 25%;
     min-width: 200px;
     height: 100%;
+    position: relative;
 }
 
+.logobar {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    font-size: 100px;
+    color: white;
+    font-family: "Norse";
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-credit {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.photo-credit > a {
+    color: white;
+}
 .mainbar {
     width: 55%;
     height: 100%;
     background-color: beige;
+}
+
+div img {
+    width: 100px;
 }
